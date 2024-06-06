@@ -6,7 +6,7 @@ spec:
   containers:
   - name: container01
     image: dummyimagename
-    securityContext:
-      capabilities:
-        add:
-        - NET_RAW
+    # securityContext:
+    #   capabilities:
+    #     add:
+    #     - NET_RAW
